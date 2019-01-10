@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1241.0, 920.0 ],
+		"rect" : [ 42.0, 82.0, 1241.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -74,13 +74,13 @@
 					"patching_rect" : [ 0.0, 754.0, 123.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -219,10 +219,10 @@
 					"patching_rect" : [ 620.0, 260.25, 300.0, 150.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.step[4]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "live.step[1]",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "live.step[4]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -242,10 +242,10 @@
 					"patching_rect" : [ 318.0, 260.25, 300.0, 150.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.step[3]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "live.step[1]",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "live.step[3]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -265,10 +265,10 @@
 					"patching_rect" : [ 922.0, 260.25, 300.0, 150.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.step[2]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "live.step[1]",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "live.step[2]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -420,10 +420,10 @@
 					"patching_rect" : [ 16.0, 260.25, 300.0, 150.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.step[1]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "live.step[1]",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "live.step[1]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -487,7 +487,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mlXYwt1Weki(2in-256out).maxpat",
+					"name" : "smlXYwtWeki(2in-256out).maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -804,18 +804,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-116" : [ "live.button[5]", "live.button", 0 ],
 			"obj-13" : [ "live.step[1]", "live.step[1]", 0 ],
-			"obj-1::obj-101" : [ "live.button[4]", "live.button", 0 ],
-			"obj-50" : [ "live.step[3]", "live.step[1]", 0 ],
-			"obj-64" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-1::obj-34" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-47" : [ "live.step[2]", "live.step[1]", 0 ],
-			"obj-1::obj-45" : [ "live.button[6]", "live.button", 0 ],
+			"obj-1::obj-45" : [ "live.button[1]", "live.button", 0 ],
+			"obj-1::obj-116" : [ "live.button[3]", "live.button", 0 ],
 			"obj-1::obj-7" : [ "gain~", "gain~", 0 ],
-			"obj-1::obj-18" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-1::obj-19" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-1::obj-34" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-47" : [ "live.step[2]", "live.step[1]", 0 ],
+			"obj-64" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-1::obj-18" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-19" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-51" : [ "live.step[4]", "live.step[1]", 0 ],
+			"obj-50" : [ "live.step[3]", "live.step[1]", 0 ],
+			"obj-1::obj-101" : [ "live.button[2]", "live.button", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -823,8 +823,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mlXYwt1Weki(2in-256out).maxpat",
-				"bootpath" : "D:/Documents/Goldsmiths/mlcp/Project",
+				"name" : "smlXYwtWeki(2in-256out).maxpat",
+				"bootpath" : "D:/Documents/smlXYwt",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
