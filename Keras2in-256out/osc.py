@@ -33,14 +33,8 @@ class OscServer:
         self.xin = args
         # print(self.xhandler,"received with size:",np.array(self.xin).size)
 
-    def getY(self,unused_addr, arraynum, *args):
-        if arraynum == 0:
-            self.yin = args
-        if arraynum >= 1:
-            self.yin = np.vstack((self.yin,args))
-        if arraynum == 14:
-            self.yin = self.yin.ravel()
-            print(self.yhandler,"received with size:",np.array(self.yin).size)
+    def getY(self,unused_addr, *args):
+        self.yin = args
     
     def addExample(self,unused_addr,*args):
         self.addexample = 1

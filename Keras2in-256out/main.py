@@ -10,7 +10,7 @@ from keras1 import NeuralNetRegression
 
 #parameters
 inputdimension  = 2
-outputdimension = 11025
+outputdimension = 256
 nHidden = 10
 nNodes = 100
 epochs = 1000
@@ -70,10 +70,15 @@ while True:
             oscserver.delall = 0
         if oscserver.train == 1:
             # train
-            nn = NeuralNetRegression(x,y,nHidden,nNodes)
-            nn.train(x,y,nExamples,epochs)
-            trained = 1
-            oscserver.train = 0
+            if(nExamples > 1):
+                nn = NeuralNetRegression(x,y,nHidden,nNodes)
+                nn.train(x,y,nExamples,epochs)
+                trained = 1
+                oscserver.train = 0
+            else:
+                print("no Examples found. Need atleast 2 Examples to Train")
+                print("\+q: quit")
+                oscserver.train = 0
             pass
         if keyboard.is_pressed('\+q'): 
             oscserver.server.shutdown()
