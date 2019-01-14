@@ -1,5 +1,6 @@
-Video Examples: https://www.youtube.com/watch?v=eWjIBFLX3xM
-                https://www.youtube.com/watch?v=cfLKqUpWepc
+Video Examples: 
+https://www.youtube.com/watch?v=eWjIBFLX3xM
+https://www.youtube.com/watch?v=cfLKqUpWepc
                 
 1. I started this project because I was looking for an easy and intuitive way of morphing between wavetables with an XY pad where you could easily add, remove and find the “in-between” of the sampled wavetables.  
 2. There are a large number of morphing XY wavetable synthesizers, but I hadn’t heard of one using machine learning. In my opinion machine learning techniques make it super simple for any user to add, remove and adapt the XY morphing to their intended end goal. 
