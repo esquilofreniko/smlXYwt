@@ -1,5 +1,7 @@
-Video Examples: 
+Video Examples:
+
 https://www.youtube.com/watch?v=eWjIBFLX3xM
+
 https://www.youtube.com/watch?v=cfLKqUpWepc
                 
 1. I started this project because I was looking for an easy and intuitive way of morphing between wavetables with an XY pad where you could easily add, remove and find the “in-between” of the sampled wavetables.  
