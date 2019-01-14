@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=eWjIBFLX3xM
 
 https://www.youtube.com/watch?v=cfLKqUpWepc
                 
+Project Summary:
+                
 1. I started this project because I was looking for an easy and intuitive way of morphing between wavetables with an XY pad where you could easily add, remove and find the “in-between” of the sampled wavetables.  
 2. There are a large number of morphing XY wavetable synthesizers, but I hadn’t heard of one using machine learning. In my opinion machine learning techniques make it super simple for any user to add, remove and adapt the XY morphing to their intended end goal. 
 3. For the implementation the method of my choice was regression (since I wanted the wavetables to morph continuously between examples). I tried using polynomial regression but ended up having better results with neural networks. I used Wekinator for one variant of the wavetable synth and used Keras/Tensorflow for the other variations. 
