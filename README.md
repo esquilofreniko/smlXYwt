@@ -5,6 +5,7 @@
 5. All the code in this project is my own work. I have used resources like the Keras documentation (https://keras.io/) and tutorials (https://machinelearningmastery.com/regression-tutorial-keras-deep-learning-library-python/), python-osc documentation (https://pypi.org/project/python-osc/) and Wekinator documentation (http://www.wekinator.org/detailed-instructions/) to learn from examples but ultimately ended up writing my own code. 
  
 Running Instructions: 
+
 smlXYwtWeki(2in-256out):  
 - Start Wekinator with 2 inputs and 256 continuous outputs (using default settings). 
 - Open smlXYwtWeki(2in-256out) max patch or the m4l version inside ableton. 
